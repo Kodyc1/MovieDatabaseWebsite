@@ -1,0 +1,68 @@
+*{
+	text-align: center;
+}
+
+
+body { 
+    padding-top: 65px;
+    background-color: lightgrey;
+    padding: 1em;
+}
+
+#welcome{
+	text-align: center;
+	
+	font: 48px Helvetica, Sans-Serif;
+
+	letter-spacing: -5px;
+
+	color: #4CAF50; 
+}
+
+navbar{
+	position: relative;
+}
+
+ul{
+	list-style-type: none;
+	margin:0;
+}
+
+li{
+	padding: 1em;
+	display:inline-block;
+}
+
+#cart{
+	float:right;
+}
+
+.text {
+	width: 100%;
+	color: green;
+}
+
+.container{
+	display:block;
+	position:relative;
+}
+
+table{
+	border: 1px solid;
+}
+
+.button{
+	position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
